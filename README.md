@@ -1,7 +1,8 @@
 # DevOps_Assignment
 The complete DevOps Assignment which includes problems related to Docker, System Architecture, and Automated Data Pipelines using Python
 
-### Que2. System Architecture Ans: 
+### Que2. System Architecture 
+**Ans**: 
  
 ## Given architecture explanation:
 -	**DNS name**: - The Domain Name Server will provide access to web server to all users to access the website.
