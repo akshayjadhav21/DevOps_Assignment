@@ -30,10 +30,10 @@ The complete DevOps Assignment which includes problems related to Docker, System
 **Ans**:
 - Description of the tasks for which I need to build automated data pipeline,
   - There is one News Articles Website where many users usually submit their articles and interested people read the articles and upvotes the articles.
-o	I have gathered a dataset of such article submissions and related information such as upvote count, time the article has been updated to the website, etc.
-o	Secondly, I have performed two operations on the data for below tasks,
-	To find out the words that appear most often in the headlines of the article
-	To find the timing of article submissions
+  - I have gathered a dataset of such article submissions and related information such as upvote count, time the article has been updated to the website, etc.
+  - Secondly, I have performed two operations on the data for below tasks,
+    - To find out the words that appear most often in the headlines of the article
+    - To find the timing of article submissions
 •	I have built an automated data pipeline using python program according to the requirements given for the problem,
 a.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above,
 b.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform operations on it which is quite easy and helpful to work upon for the users.
