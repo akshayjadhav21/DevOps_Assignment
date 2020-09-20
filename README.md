@@ -6,7 +6,7 @@ Ans:
  
 1.	Given architecture explanation:
 -	DNS name
-o	The Domain Name Server will provide access to web server to all users to access the website.
+- The Domain Name Server will provide access to web server to all users to access the website.
 -	Content Delivery Networks (CDN)
 o	CDN will shorten the time required for a server to communicate with a client by reducing the geographical distance between the server and the client.
 -	Load Balancer
