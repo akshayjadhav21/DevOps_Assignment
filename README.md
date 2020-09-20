@@ -35,6 +35,6 @@ The complete DevOps Assignment which includes problems related to Docker, System
     - To find out the words that appear most often in the headlines of the article
     - To find the timing of article submissions
 - **I have built an automated data pipeline using python program according to the requirements given for the problem**,
-  - **a**.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above,
-  - **b**.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform        operations on it which is quite easy and helpful to work upon for the users.
+  - **a**.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above.
+  - **b**.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform operations on it which is quite easy and helpful to work upon for the users.
   - **c**.	I have taken the required arguments as well as optional arguments into the consideration to fulfill the mentioned requirements.
