@@ -26,15 +26,15 @@ The complete DevOps Assignment which includes problems related to Docker, System
 - **Two EC2 instances**: - EC2 instance provides the service to the application which is running at example e.g foo.com
 - **Elastic Load Balancer**: - Elastic Load Balancer will redirect the web requests made by the users/ traffic across multiple target EC2 server to increase fault-tolerance in the application
 
-### Que3. Automated Data Pipeline using argparse module
+### Que3. Automated Data Pipeline using Command Line Interface (argparse module)
 **Ans**:
-- Description of the tasks for which I need to build automated data pipeline,
+- **Description of the tasks for which I need to build automated data pipeline**,
   - There is one News Articles Website where many users usually submit their articles and interested people read the articles and upvotes the articles.
   - I have gathered a dataset of such article submissions and related information such as upvote count, time the article has been updated to the website, etc.
   - Secondly, I have performed two operations on the data for below tasks,
     - To find out the words that appear most often in the headlines of the article
     - To find the timing of article submissions
-- I have built an automated data pipeline using python program according to the requirements given for the problem,
-  - a.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above,
-  - b.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform        operations on it which is quite easy and helpful to work upon for the users.
-  - c.	I have taken the required arguments as well as optional arguments into the consideration to fulfill the mentioned requirements.
+- **I have built an automated data pipeline using python program according to the requirements given for the problem**,
+  - **a**.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above,
+  - **b**.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform        operations on it which is quite easy and helpful to work upon for the users.
+  - **c**.	I have taken the required arguments as well as optional arguments into the consideration to fulfill the mentioned requirements.
