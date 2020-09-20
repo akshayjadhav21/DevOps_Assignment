@@ -4,8 +4,8 @@ The complete DevOps Assignment which includes problems related to Docker, System
 ### Que2. Ans: 
  
 ## Given architecture explanation:
--	### DNS name:### - The Domain Name Server will provide access to web server to all users to access the website.
--	### Content Delivery Networks (CDN): - CDN will shorten the time required for a server to communicate with a client by reducing the geographical distance between the server and the client.
+-	*DNS name*: - The Domain Name Server will provide access to web server to all users to access the website.
+- Content Delivery Networks (CDN): - CDN will shorten the time required for a server to communicate with a client by reducing the geographical distance between the server and the client.
 -	Load Balancer: - There are 2 Load Balancers which can distribute the network traffic across a cluster of particular servers to increase the availability of the website.
 -	Service: - There are 2 service servers that are provided to the users to maintain the application uptime.
 
