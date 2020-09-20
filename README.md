@@ -29,7 +29,7 @@ The complete DevOps Assignment which includes problems related to Docker, System
 ### Que3. Automated Data Pipeline using argparse module
 **Ans**:
 - Description of the tasks for which I need to build automated data pipeline,
--- There is one News Articles Website where many users usually submit their articles and interested people read the articles and upvotes the articles.
+  - There is one News Articles Website where many users usually submit their articles and interested people read the articles and upvotes the articles.
 o	I have gathered a dataset of such article submissions and related information such as upvote count, time the article has been updated to the website, etc.
 o	Secondly, I have performed two operations on the data for below tasks,
 	To find out the words that appear most often in the headlines of the article
