@@ -1,7 +1,7 @@
 # DevOps_Assignment
 The complete DevOps Assignment which includes problems of Automated Data Pipelines using Python, System Architecture, and related to Docker.
 
-**----------------------------------------------------------------------------------------------------------------------------------------**     
+**--------------------------------------------------------------------------------------------------------------**     
 
 ### Que3. Automated Data Pipeline using Command Line Interface (argparse module)
 **Ans**:
@@ -34,7 +34,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
       - python sample.py --folder /Users/akshay/Desktop/Python/script --sort descending --output log1.txt
 
        
-**----------------------------------------------------------------------------------------------------------------------------------------**     
+**-------------------------------------------------------------------------------------------------------------**     
 
 ### Que2. System Architecture 
 **Ans**: 
@@ -69,7 +69,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
      - How to maitain the application consistency at the time of deployments with zero downtime deployment
      - How to implement and deploy the application architecture using AWS cloud services (I have a bit knowledge in AWS Cloud Services) 
      
-**----------------------------------------------------------------------------------------------------------------------------------------**  
+**-------------------------------------------------------------------------------------------------------------**  
 
 ### Que1. Docker
 **Ans**:
@@ -86,6 +86,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 -	I have tried to implement the Dockerfile to process all things at a time such as pulling an SQL image, create a container using an image, expose SQL port outside the host image, but I was confused about how to fetch DBScripts folder and from which folder path.
 
 #### New things I learned:
-     - Extensive usage of docker concepts while testing the code
-     - How to increase the efficiency of Testing environment using 
+     - Extensive usage of docker to the developers
+     - How to increase the efficiency of Testing environment with minimum memory requirement with docker
+     - Unlike VMs, easy implementation of infrastructure and less memory consumed
 
