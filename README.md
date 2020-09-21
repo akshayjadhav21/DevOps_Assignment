@@ -50,22 +50,22 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 ## Benefit:
 - The application which is running on foo.com will never go down and the website will be accessible without any delay.
 - When user sends a web request on web server, the request will get redirected to the nearest server according to the geographical location of the user and the server.
-- After the CDN, two load balancers will redirect the traffic of requests to the appropriate service servers depending on the volume of the traffic.
-- Also, two load balancers are used to maximize application uptime and data distribution.
+- Following the CDN, two load balancers will redirect the traffic of requests across target service servers depending on the volume of the traffic.
+- Moreover, two load balancers are used to maximize application uptime and data distribution.
 - It provides additional benefits such as data availability and application uptime consistency.
 
 ## We could roll out an update to the service without any downtime impact to application foo.com by using below architecture,
 - Multiple Application Servers
 - Load Balancers
-- All HTTP request should be stateless to achieve zero downtime
+- All HTTP request should be stateless to achieve zero downtime deployment
 
 ## We could deploy the above application using AWS Cloud services with the following architecture,
-- **Two EC2 instances**: - EC2 instance provides the service to the application which is running at example e.g foo.com
-- **Elastic Load Balancer**: - Elastic Load Balancer will redirect the web requests made by the users/ traffic across multiple target EC2 server to increase fault-tolerance in the application
+- **Two EC2 instances**: - EC2 instances will provide the service to the application which is running using URL e.g foo.com
+- **Elastic Load Balancer**: - Elastic Load Balancer will redirect the web requests made by the users/ traffic across multiple target EC2 servers to increase fault-tolerance in the application
 
 #### New things I learned:
-     - How to learn the implemeted system architecture
-     - How to leverage the infrasture of the implemented architecture with new and updated changes
+     - How to understand and acknowledge the implemeted system architecture
+     - How to leverage the infrastructure of the implemented architecture with new and updated changes
      - How to maitain the application consistency at the time of deployments with zero downtime deployment
      - How to implement and deploy the application architecture using AWS cloud services (I have a introductory knowledge of AWS Cloud Services) 
      
@@ -74,12 +74,12 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 ### Que1. Docker
 **Ans**:
 
-- Firstly, as per the requirement I have pulled the Docker Image for SQL Server Developer Edition.
-- I have created the container by using the pulled image named as "sqlserver”
-- After container creation, I have checked whether the docker container has created properly or not.
-- I have entered inside the newly created docker container.
-- From the container I have connected to SQL command using sqlcmd with the required credentials.
-- Moreover, I have created the database named “testDB”, table “Test” and inserted a record into the table as per the requirement.
+- Firstly, as per the requirement I have pulled the Docker Image for SQL Server Developer Edition and checked whether image got pulled. (docker images)
+- I have created the container by using the pulled image named as "sqlserver”. (docker run \ -e 'ACCEPT_EULA=Y' \ -e 'SA_PASSWORD=Password1!' \ -e 'MSSQL_PID=Express' \ --name sqlserver \ -p 1433:1433 -d mcr.microsoft.com/mssql/server:latest)
+- After container creation, I have checked whether the docker container has created properly or not. (docker container ls)
+- I have entered inside the newly created docker container. (docker exec -it sqlserver "bash")
+- From the container I have connected to SQL command using sqlcmd with the required credentials. (/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "Password1!")
+- Moreover, I have created the database named “testDB”, table “Test” and inserted a record into the table as per the requirement. (Given Scripts)
 
 **The things I tried to implement a lot are as below**,
 - I have tried to create DBScripts folder and tried to keep all my sql files into it to run, but I got confused about the directories while dealing with overall docker concept.
