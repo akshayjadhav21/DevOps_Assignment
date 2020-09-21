@@ -40,7 +40,7 @@ The complete DevOps Assignment which includes problems related to Docker, System
     - **a**.	Navigated to the folder and ran other python scripts which contains some kind of data ingestion/tranformation.
     - **b**.	Using command line interface with "argparse" module in main python program to get the inputs from the user via command line arguments and parse it to run other 4 python scripts according to the requirement in asceding/desceding order. which is quite easy and helpful to work upon for the users.
     - **c**.	Printed the output as per the requirement,
-             - Folder Path
+      - Folder Path
              - Files/ File it is executed
              - Outputs of files
              - Log File
