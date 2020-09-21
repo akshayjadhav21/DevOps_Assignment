@@ -45,7 +45,7 @@ The complete DevOps Assignment which includes problems related to Docker, System
              - Outputs of files
              - Log File
   
-  #### New things I learned:
+ #### New things I learned:
        - Usage of Python with Command Line Interface with argparse module
        - Extensive Usage of Linux
        - Usage of Python as a programming
