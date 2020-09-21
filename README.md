@@ -16,7 +16,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
       - Outputs of files 
       - Log File (Log1.txt)
   
- #### New things I learned:
+#### New things I learned:
        - Usage of Python with Command Line Interface with argparse module
        - Extensive Usage of Linux
        - Usage of Python as a programming
@@ -82,7 +82,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 - Moreover, I have created the database named “testDB”, table “Test” and inserted a record into the table as per the requirement.
 
 **The things I tried to implement a lot are as below**,
-- I tried to create DBScripts folder and tried to keep all my sql files into it to run, but I got confused about the directories while dealing with overall docker concept.
+- I have tried to create DBScripts folder and tried to keep all my sql files into it to run, but I got confused about the directories while dealing with overall docker concept.
 -	I have tried to implement the Dockerfile to process all things at a time such as pulling an SQL image, create a container using an image, expose SQL port outside the host image, but I was confused about how to fetch DBScripts folder and from which folder path.
 
 #### New things I learned:
