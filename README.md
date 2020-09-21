@@ -1,5 +1,5 @@
 # DevOps_Assignment
-The complete DevOps Assignment which includes problems of Automated Data Pipelines using Python, System Architecture, and related to Docker.
+The complete DevOps Assignment which includes problems of Automated Data Pipelines using Python with CLI, System Architecture, and Docker Deployment.
 
 **--------------------------------------------------------------------------------------------------------------**     
 
