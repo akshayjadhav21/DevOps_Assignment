@@ -67,7 +67,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
      - How to learn the implemeted system architecture
      - How to leverage the infrasture of the implemented architecture with new and updated changes
      - How to maitain the application consistency at the time of deployments with zero downtime deployment
-     - How to implement and deploy the application architecture using AWS cloud services (I have a bit knowledge in AWS Cloud Services) 
+     - How to implement and deploy the application architecture using AWS cloud services (I have a introductory knowledge of AWS Cloud Services) 
      
 **-------------------------------------------------------------------------------------------------------------**  
 
