@@ -24,14 +24,14 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
        
 ### Various ways to execute main python program "sample.py" using command line arguments,
 
-**Execution of sample.py to execute a single python script**
-- python sample.py --folder /Users/akshay/Desktop/Python/script --file First.py --output log1.txt
+  - **Execution of sample.py to execute a single python script**
+      - python sample.py --folder /Users/akshay/Desktop/Python/script --file First.py --output log1.txt
 
-**Execution of sample.py to execute a multiple python script in ascending order**
-- python sample.py --folder /Users/akshay/Desktop/Python/script --sort ascending --output log1.txt
+  - **Execution of sample.py to execute a multiple python script in ascending order**
+      - python sample.py --folder /Users/akshay/Desktop/Python/script --sort ascending --output log1.txt
 
-**Execution of sample.py to execute a multiple python script in descending order**
-- python sample.py --folder /Users/akshay/Desktop/Python/script --sort descending --output log1.txt
+  - **Execution of sample.py to execute a multiple python script in descending order**
+      - python sample.py --folder /Users/akshay/Desktop/Python/script --sort descending --output log1.txt
 
        
 **----------------------------------------------------------------------------------------------------------------------------------------**     
