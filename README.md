@@ -26,15 +26,27 @@ The complete DevOps Assignment which includes problems related to Docker, System
 - **Two EC2 instances**: - EC2 instance provides the service to the application which is running at example e.g foo.com
 - **Elastic Load Balancer**: - Elastic Load Balancer will redirect the web requests made by the users/ traffic across multiple target EC2 server to increase fault-tolerance in the application
 
+#### New things I learned:
+     - How to learn the implemeted system architecture
+     - How to leverage the infrasture of the implemented architecture with new and updated changes
+     - How to maitain the application consistency at the time of deployments with zero downtime deployment
+     - How to implement and deploy the application architecture using AWS cloud services (I have a bit knowledge in AWS Cloud Services) 
+
 ### Que3. Automated Data Pipeline using Command Line Interface (argparse module)
 **Ans**:
-- **Description of the tasks for which I need to build automated data pipeline**,
-  - There is one News Articles Website where many users usually submit their articles and interested people read the articles and upvotes the articles.
-  - I have gathered a dataset of such article submissions and related information such as upvote count, time the article has been updated to the website, etc.
-  - Secondly, I have performed two operations on the data for below tasks,
-    - To find out the words that appear most often in the headlines of the article
-    - To find the timing of article submissions
-- **I have built an automated data pipeline using python program according to the requirements given for the problem**,
-  - **a**.	I have navigated to the folder using following python code and ran the other python scripts to perform two operations stated above.
-  - **b**.	I have taken the input using the argparse module in the python program to get the inputs from the user via command line arguments and parse it to perform operations on it which is quite easy and helpful to work upon for the users.
-  - **c**.	I have taken the required arguments as well as optional arguments into the consideration to fulfill the mentioned requirements.
+- **Description of the tasks for which I built a automated data pipeline**,
+  - I have created 4 sample python scripts (First.py, Second.py, Third.py, Fourth.py) to run inside another main python program to build an automated data     pipeline.
+  - Created main python program file called "sample.py" which will perform below tasks according to the requirements as follows 
+    - **a**.	Navigated to the folder and ran other python scripts which contains some kind of data ingestion/tranformation.
+    - **b**.	Using command line interface with "argparse" module in main python program to get the inputs from the user via command line arguments and parse it to run other 4 python scripts according to the requirement in asceding/desceding order. which is quite easy and helpful to work upon for the users.
+    - **c**.	Printed the output as per the requirement,
+             - Folder Path
+             - Files/ File it is executed
+             - Outputs of files
+             - Log File
+  
+  #### New things I learned:
+       - Usage of Python with Command Line Interface with argparse module
+       - Extensive Usage of Linux
+       - Usage of Python as a programming
+       - Automation of tasks by building automated data pipeline using Python with CLI
