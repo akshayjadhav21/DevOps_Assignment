@@ -6,7 +6,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 ### Que3. Automated Data Pipeline using Python with Command Line Interface (argparse module)
 **Ans**:
 - **Description of the tasks for which I built a automated data pipeline**,
-  - I have created 4 sample python scripts (First.py, Second.py, Third.py, Fourth.py) to run inside another main python program (sample.py) to build an automated data pipeline.
+  - Created 4 python scripts (First.py, Second.py, Third.py, Fourth.py) to run inside another main python program (sample.py) for wchich built an automated data pipeline.
   - Created main python program file called "sample.py" which will perform below tasks according to the requirements as follows 
     - **a**.	Navigated to the folder and ran other python scripts which contains some kind of data ingestion/tranformation.
     - **b**.	Using command line interface with "argparse" module in main python program to get the inputs from the user via command line arguments and parse it to run other 4 python scripts according to the requirement in asceding/desceding order.
