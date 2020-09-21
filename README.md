@@ -38,7 +38,7 @@ The complete DevOps Assignment which includes problems related to Docker, System
   - I have created 4 sample python scripts (First.py, Second.py, Third.py, Fourth.py) to run inside another main python program to build an automated data     pipeline.
   - Created main python program file called "sample.py" which will perform below tasks according to the requirements as follows 
     - **a**.	Navigated to the folder and ran other python scripts which contains some kind of data ingestion/tranformation.
-    - **b**.	Using command line interface with "argparse" module in main python program to get the inputs from the user via command line arguments and parse it to run other 4 python scripts according to the requirement in asceding/desceding order. which is quite easy and helpful to work upon for the users.
+    - **b**.	Using command line interface with "argparse" module in main python program to get the inputs from the user via command line arguments and parse it to run other 4 python scripts according to the requirement in asceding/desceding order.
     - **c**.	Printed the output as per the requirement,
       - Folder Path
       - Files/ File it is executed
@@ -50,3 +50,7 @@ The complete DevOps Assignment which includes problems related to Docker, System
        - Extensive Usage of Linux
        - Usage of Python as a programming
        - Automation of tasks by building automated data pipeline using Python with CLI
+       
+**------------------------------------------------------------------------------------------------------------------------------------------------------------**       
+
+
