@@ -22,6 +22,18 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
        - Usage of Python as a programming
        - Automation of tasks by building automated data pipeline using Python with CLI
        
+### Various ways to execute main python program "sample.py" using command line arguments,
+
+**Execution of sample.py to execute a single python script**
+- python sample.py --folder /Users/akshay/Desktop/Python/script --file First.py --output log1.txt
+
+**Execution of sample.py to execute a multiple python script in ascending order**
+- python sample.py --folder /Users/akshay/Desktop/Python/script --sort ascending --output log1.txt
+
+**Execution of sample.py to execute a multiple python script in descending order**
+- python sample.py --folder /Users/akshay/Desktop/Python/script --sort descending --output log1.txt
+
+       
 **----------------------------------------------------------------------------------------------------------------------------------------**     
 
 ### Que2. System Architecture 
@@ -60,17 +72,18 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 ### Que1. Docker
 **Ans**:
 
-•	Firstly, as per the requirement I have pulled the Docker Image for SQL Server Developer Edition.
-•	I have created the container by using the pulled image named as "sqlserver”
-•	After container creation, I have checked whether the docker container has created properly or not.
-•	I have entered inside the newly created docker container.
-•	From the container I have connected to SQL command using sqlcmd with the required credentials.
-•	Moreover, I have created the database named “testDB”, table “Test” and inserted a record into the table as per the requirement.
+- Firstly, as per the requirement I have pulled the Docker Image for SQL Server Developer Edition.
+- I have created the container by using the pulled image named as "sqlserver”
+- After container creation, I have checked whether the docker container has created properly or not.
+- I have entered inside the newly created docker container.
+- From the container I have connected to SQL command using sqlcmd with the required credentials.
+- Moreover, I have created the database named “testDB”, table “Test” and inserted a record into the table as per the requirement.
 
-The things I tried to implement a lot are as below,
--	I tried to create DBScripts folder and tried to keep all my sql files into it to run, but I got confused about the directories while dealing with overall docker concept.
+**The things I tried to implement a lot are as below**,
+- I tried to create DBScripts folder and tried to keep all my sql files into it to run, but I got confused about the directories while dealing with overall docker concept.
 -	I have tried to implement the Dockerfile to process all things at a time such as pulling an SQL image, create a container using an image, expose SQL port outside the host image, but I was confused about how to fetch DBScripts folder and from which folder path.
 
-
-
+#### New things I learned:
+     - Extensive usage of docker concepts while testing the code
+     - How to increase the efficiency of Testing environment using 
 
