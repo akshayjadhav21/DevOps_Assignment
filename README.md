@@ -51,6 +51,6 @@ The complete DevOps Assignment which includes problems related to Docker, System
        - Usage of Python as a programming
        - Automation of tasks by building automated data pipeline using Python with CLI
        
-**------------------------------------------------------------------------------------------------------------------------------------------------------------**       
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**       
 
 
