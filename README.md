@@ -39,7 +39,7 @@ The complete DevOps Assignment which includes problems of Automated Data Pipelin
 ### Que2. System Architecture 
 **Ans**: 
 
-![alt text](/Users/akshay/Desktop/System Architecture.png "System Architecture")
+![alt tag](https://github.com/akshayjadhav21/DevOps_Assignment/blob/master/System%20Architecture.png "System Architecture")
  
 ## Given architecture explanation:
 -	**DNS name**: - The Domain Name Server will provide access to web server to all users who want to access the application at foo.com.
