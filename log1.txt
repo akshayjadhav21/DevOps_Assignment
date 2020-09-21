@@ -1,0 +1,17 @@
+------------------------------------------------------------------
+Executing File:  /Users/akshay/Desktop/Python/script/First.py
+The first python script 'First.py' has been executed.
+------------------------------------------------------------------
+Executing File:  /Users/akshay/Desktop/Python/script/Fourth.py
+The fourth python script 'Fourth.py' has been executed.
+------------------------------------------------------------------
+Executing File:  /Users/akshay/Desktop/Python/script/Second.py
+The second python script 'Second.py' has been executed.
+------------------------------------------------------------------
+Executing File:  /Users/akshay/Desktop/Python/script/Third.py
+The third python script 'Third.py' has been executed.
+------------------------------------------------------------------
+The Folder path: /Users/akshay/Desktop/Python/script
+------------------------------------------------------------------
+Log File: log1.txt
+------------------------------------------------------------------
