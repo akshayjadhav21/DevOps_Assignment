@@ -1,0 +1,63 @@
+Last login: Mon Sep 21 00:56:28 on ttys000
+akshay@Akshays-MacBook-Air ~ % 
+akshay@Akshays-MacBook-Air ~ % docker pull mcr.microsoft.com/mssql/server:latest
+latest: Pulling from mssql/server
+Digest: sha256:c7e1ece8ec34938c78d715eb5d2ddc827f0b92debc071dcfca122a6f94ce540d
+Status: Image is up to date for mcr.microsoft.com/mssql/server:latest
+mcr.microsoft.com/mssql/server:latest
+akshay@Akshays-MacBook-Air ~ % docker run \                                   
+-e 'ACCEPT_EULA=Y' \
+-e 'SA_PASSWORD=akshay@21' \
+-e 'MSSQL_PID=Express' \
+--name mysqlserver \
+-p 1433:1433 -d mcr.microsoft.com/mssql/server:latest
+079274f4f63debb388a0beabb933104427e7ff7bdd88ad04f0468911f8a29234
+akshay@Akshays-MacBook-Air ~ % docker container ls                            
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                    NAMES
+079274f4f63d        mcr.microsoft.com/mssql/server:latest   "/opt/mssql/bin/perm…"   13 seconds ago      Up 13 seconds       0.0.0.0:1433->1433/tcp   mysqlserver
+akshay@Akshays-MacBook-Air ~ % docker exec -it mysqlserver "bash"               
+mssql@079274f4f63d:/$ /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "akshay@21"
+1> create database testDB;
+2> go
+1> use testDB;
+2> create table Test (Id int, Data varchar(50));
+3> go
+Changed database context to 'testDB'.
+1> insert into Test (Id, Data) VALUES (1, 'A');
+2> go
+
+(1 rows affected)
+1> select * from Test;
+2> go
+Id          Data                                              
+----------- --------------------------------------------------
+          1 A                                                 
+
+(1 rows affected)
+1> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
